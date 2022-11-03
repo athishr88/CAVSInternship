@@ -1,0 +1,19 @@
+Moose {
+  translation -0.012043251986589933 -0.02680928940023014 3.3015339678450544
+  rotation 0.902652627633373 -0.43036655670323304 0.00169135979919861 0.1024191119476504
+  controller "controller_for_moose"
+  bodySlot [
+    Lidar {
+      translation 1.5 0 0
+    }
+    Camera {
+      translation 1.5 0 0
+    }
+    Compass {
+      rotation -1 0 0 0.0001599027021119356
+    }
+    GPS {
+      rotation 1 0 0 0.00016201706051837124
+    }
+  ]
+}

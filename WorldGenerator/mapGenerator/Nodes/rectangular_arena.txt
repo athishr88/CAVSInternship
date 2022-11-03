@@ -1,0 +1,10 @@
+RectangleArena {
+  translation %s
+  rotation %s
+  name %s
+  floorSize %s
+  floorTileSize %s
+  floorAppearance %s {
+    }
+  wallHeight %s
+}

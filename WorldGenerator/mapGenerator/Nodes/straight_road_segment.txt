@@ -1,0 +1,12 @@
+StraightRoadSegment {
+  translation %s
+  rotation %s
+  name %s
+  id %s
+  width %s
+  numberOfLanes %S
+  numberOfForwardLanes %s
+  speedLimit %s
+  length %s
+  roadBoundingObject TRUE
+}

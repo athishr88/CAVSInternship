@@ -1,0 +1,5 @@
+Cypress {
+  translation %s
+  rotation %s
+  name %s
+}
