@@ -1,0 +1,184 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.05369214650269289 -0.034496744591058406 -0.9979614862390995 4.281894801476263
+  position 2.232061253456272 -1.4147619549670374 3.897298987293532
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+DEF UNUSED Solid {
+  children [
+    DEF FLAT Shape {
+      appearance Grass {
+        textureTransform TextureTransform {
+          scale 1000 1000
+        }
+      }
+      geometry Plane {
+        size 3000 3000
+      }
+    }
+  ]
+  boundingObject USE FLAT
+}
+DEF TESTING_GROUND UnevenTerrain {
+  translation 0 0 -0.13
+  appearance SandyGround {
+    textureTransform TextureTransform {
+      scale 5 5
+    }
+  }
+  flatBounds TRUE
+}
+Sassafras {
+  translation 21.9715 -4.99018 -1.42109e-14
+}
+Sassafras {
+  translation 16.0432 -3.99462 -7.10538e-15
+  name "sassafras tree(4)"
+}
+Sassafras {
+  translation 21.197 1.95438 1.42109e-14
+  name "sassafras tree(1)"
+}
+Sassafras {
+  translation 17.2009 4.28973 1.77635e-14
+  name "sassafras tree(2)"
+}
+Sassafras {
+  translation 11.0684 5.72652 1.77635e-14
+  name "sassafras tree(3)"
+}
+Sassafras {
+  translation 11.2566 -13.9112 -0.12
+  name "sassafras tree(5)"
+}
+Sassafras {
+  translation 8.09855 -10.4513 -0.04
+  name "sassafras tree(9)"
+}
+Sassafras {
+  translation 5.31772 -7.2068 0.32
+  name "sassafras tree(8)"
+}
+Sassafras {
+  translation 2.26141 -16.1484 1.98
+  name "sassafras tree(7)"
+}
+BigSassafras {
+  translation 6.74271 6.10963 2.08
+  name "sassafras tree(14)"
+}
+BigSassafras {
+  translation 3.29328 5.69977 1.96
+  name "sassafras tree(33)"
+}
+BigSassafras {
+  translation -1.1616 6.76877 1.96
+  name "sassafras tree(15)"
+}
+BigSassafras {
+  translation -4.65513 6.93334 1.68
+  name "sassafras tree(16)"
+}
+BigSassafras {
+  translation -8.01673 6.84416 0.65
+  name "sassafras tree(17)"
+}
+BigSassafras {
+  translation -11.2117 9.91948 0.21
+  name "sassafras tree(18)"
+}
+BigSassafras {
+  translation -12.8419 11.8247 0.21
+  name "sassafras tree(19)"
+}
+BigSassafras {
+  translation -15.207 13.4083 0.21
+  name "sassafras tree(20)"
+}
+BigSassafras {
+  translation -17.2593 14.7383 -0.19
+  name "sassafras tree(21)"
+}
+Sassafras {
+  translation -0.297805 -11.2166 -0.13
+  name "sassafras tree(13)"
+}
+Sassafras {
+  translation -3.42489 -6.33719 1.08
+  name "sassafras tree(12)"
+}
+Sassafras {
+  translation -6.43001 -2.37711 1.98
+  name "sassafras tree(11)"
+}
+Sassafras {
+  translation -9.11478 -3.37208 1.32
+  name "sassafras tree(22)"
+}
+Sassafras {
+  translation -11.9403 -4.53045 0.25
+  name "sassafras tree(34)"
+}
+Sassafras {
+  translation -15.0216 -7.42382 -0.08
+  name "sassafras tree(23)"
+}
+Sassafras {
+  translation -23.5514 -2.44776 -0.6
+  name "sassafras tree(24)"
+}
+Sassafras {
+  translation -21.6654 12.1355 -0.41
+  name "sassafras tree(27)"
+}
+Sassafras {
+  translation -19.8483 10.4736 -0.41
+  name "sassafras tree(32)"
+}
+Sassafras {
+  translation -16.7279 7.56454 -0.41
+  name "sassafras tree(31)"
+}
+Sassafras {
+  translation -12.9635 3.90982 0.01
+  name "sassafras tree(30)"
+}
+Sassafras {
+  translation -16.482 1.5419 0.01
+  name "sassafras tree(29)"
+}
+Sassafras {
+  translation -19.6903 -0.0172178 -0.19
+  name "sassafras tree(28)"
+}
+Sassafras {
+  translation -19.7947 -12.0739 -0.6
+  name "sassafras tree(26)"
+}
+Sassafras {
+  translation -17.5073 -9.69447 -0.6
+  name "sassafras tree(25)"
+}
+Sassafras {
+  translation 2.84476 -3.07492 1.98
+  name "sassafras tree(10)"
+}
+Sassafras {
+  translation 8.29818 -3.62289 1.98
+  name "sassafras tree(6)"
+}
+Moose {
+  translation -0.015296542428425777 -0.01758163243192172 3.1450465667203
+  rotation 0.7535768282070814 -0.6573038796497761 -0.008577516348435591 0.10428475326119845
+  controller "moose_controller_cavs"
+  bodySlot [
+    VelodyneHDL-32E {
+      translation 1.43 0 0.09
+    }
+  ]
+}
